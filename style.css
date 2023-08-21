@@ -54,9 +54,10 @@
   padding: 1.8vmin 1.8vmin;
   background-color: #f2dbbb;
   border: none;
-  border-radius: 10px;
+  border-radius: 23px;
   font-size: 1em;
   text-decoration: none;
+  border: 1px solid black;
 }
 .left button a {
   text-decoration: none;
