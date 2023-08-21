@@ -103,6 +103,6 @@
     display: none;
   }
   .navbarContainer i {
-    display: inline;
+    display: inline-block;
   }
 }
