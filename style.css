@@ -22,6 +22,7 @@ section {
   position: sticky;
   top: 0;
   border-bottom: 0.1vmin solid black;
+  transition: all 1s ease-in;
 }
 .navContainer:hover {
   background-color: #f2dbbb;
