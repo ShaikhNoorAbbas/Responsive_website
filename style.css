@@ -11,6 +11,10 @@ a {
 section {
   scroll-behavior: smooth;
 }
+*::selection {
+  background-color: #f2dbbb;
+  color: #f2dbbb;
+}
 /* Navbar Container */
 .navContainer {
   width: 100%;
@@ -21,11 +25,12 @@ section {
   padding: 0 5vw;
   position: sticky;
   top: 0;
-  border-bottom: 0.1vmin solid black;
   transition: all 1s ease-in;
+  border-bottom: 0.1vmin solid black;
 }
 .navContainer:hover {
-  background-color: #f2dbbb;
+  transition: all 1s ease-in;
+  background: linear-gradient(30deg, #caae87, #bc3335, #9d4d5e);
 }
 /* Navbar Links */
 .navLinks {
@@ -33,9 +38,6 @@ section {
   display: flex;
   gap: 5vmin;
   font-weight: 600;
-}
-#menu {
-  display: none;
 }
 .content {
   height: calc(100vh - 60px);
@@ -79,11 +81,15 @@ section {
   height: auto;
 }
 /* Content Section Ended Here */
+/* Tools is the text Shown above the Grid Card  */
 .tools {
-  font-size: 5vmin;
   text-align: center;
-  color: #bc3335;
+  font-size: 5vmin;
+  background: linear-gradient(30deg, #caae87, #bc3335, #9d4d5e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+/* --------------------------------------- */
 /* Grid Container */
 .gridCardContainer {
   margin-top: 2vmin;
@@ -119,8 +125,20 @@ section {
   border: 1px solid black;
   cursor: pointer;
 }
+/* --------------------------------------- */
+/* Style of a Footer */
+.footer {
+  background: linear-gradient(50deg, #caae87, #9d4d5e);
+  color: black;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  margin-top: 10px;
+}
 /* -------------------------------------------------------------------------------------------------------------------- */
-
+#menu {
+  display: none;
+}
 /* Media Query for Mobile Device */
 @media (width<=600px) {
   .content {
