@@ -8,6 +8,22 @@
 html {
   scroll-behavior: smooth;
 }
+#loader {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 400px;
+  height: 400px;
+}
+#loader img {
+  width: 400px;
+}
+#main {
+  display: none;
+}
 a {
   color: black;
 }

@@ -16,128 +16,149 @@
     />
   </head>
   <body>
-    <nav class="navContainer">
-      <h2 class="navLogo"><a href="/">Logo</a></h2>
-      <ul class="navLinks">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#tools">Tools</a></li>
-        <li>Service</li>
-        <li>Blog</li>
-      </ul>
-      <i class="fa-solid fa-bars-staggered fa-fade" id="menu"></i>
-    </nav>
-    <!-- Navbar Ends here -->
-    <span id="home"></span>
-    <!-- Content Section Started from here -->
-    <section class="content">
-      <!-- Left Text Container -->
-      <div class="left">
-        <h3>
-          Learn Coding from Making <span class="word">Responsive Websites</span>
-        </h3>
-        <p>
-          Responsive design allows your website content to flow freely across
-          all screen resolutions and sizes, and renders it to look great on all
-          devices. It also makes it unnecessary to maintain different versions
-          of your website for mobile and desktop and saves you time, resources
-          and efforts
-        </p>
-        <button>
-          <a
-            href="https://www.keycdn.com/blog/benefits-of-responsive-web-design"
-            target="_blank"
-            >Explore more</a
-          >
-        </button>
-      </div>
-      <!-- Right Image Container -->
-      <div class="right">
-        <img src="images/coding.png" alt="Coding image" loading="lazy" />
-      </div>
-    </section>
-    <span id="tools"></span>
-    <!-- Content Section Ended Here -->
-    <!-- Grid Container Section -->
-    <h2 class="tools">Tools that is used to make websites Responsive</h2>
-    <section class="gridCardContainer">
-      <div class="gridItem">
-        <div class="cardheader">
-          <img src="images/html.png" alt="HTML" loading="lazy" />
-          <h2>HTML</h2>
+    <!-- Loader Div -->
+    <div id="loader">
+      <img
+        src="https://cdn.dribbble.com/users/148670/screenshots/5252136/dots.gif"
+        alt="Loading..."
+      />
+    </div>
+    <div id="main">
+      <nav class="navContainer">
+        <h2 class="navLogo"><a href="/">Logo</a></h2>
+        <ul class="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#tools">Tools</a></li>
+          <li>Service</li>
+          <li>Blog</li>
+        </ul>
+        <i class="fa-solid fa-bars-staggered fa-fade" id="menu"></i>
+      </nav>
+      <!-- Navbar Ends here -->
+      <span id="home"></span>
+      <!-- Content Section Started from here -->
+      <section class="content">
+        <!-- Left Text Container -->
+        <div class="left">
+          <h3>
+            Learn Coding from Making
+            <span class="word">Responsive Websites</span>
+          </h3>
           <p>
-            HTML provides a means to create structured documents by denoting
-            structural semantics for text such as headings, paragraphs, lists,
-            links, quotes, and other items.
+            Responsive design allows your website content to flow freely across
+            all screen resolutions and sizes, and renders it to look great on
+            all devices. It also makes it unnecessary to maintain different
+            versions of your website for mobile and desktop and saves you time,
+            resources and efforts
           </p>
-          <a
-            href="https://www.w3schools.com/html/html_intro.asp"
-            target="_blank"
-            ><button class="btn">Read more...</button></a
-          >
+          <button>
+            <a
+              href="https://www.keycdn.com/blog/benefits-of-responsive-web-design"
+              target="_blank"
+              >Explore more</a
+            >
+          </button>
         </div>
-      </div>
-      <div class="gridItem">
-        <div class="cardheader">
-          <img src="images/css.png" alt="CSS" loading="lazy" />
-          <h2>CSS</h2>
-          <p>
-            Cascading Style Sheets (CSS) is a style sheet language used for
-            describing the presentation of a document written in a markup
-            language such as HTML or XML
-          </p>
-          <a href="https://www.w3schools.com/w3css/defaulT.asp" target="_blank"
-            ><button class="btn">Read more...</button></a
-          >
+        <!-- Right Image Container -->
+        <div class="right">
+          <img src="images/coding.png" alt="Coding image" loading="lazy" />
         </div>
-      </div>
-      <div class="gridItem">
-        <div class="cardheader">
-          <img src="images/Bootstrap_logo.svg" alt="Bootstrap" loading="lazy" />
-          <h2>Bootstrap</h2>
-          <p>
-            What is Bootstrap? Bootstrap is a free, open source front-end
-            development framework for the creation of websites and web apps.
-            Designed to enable responsive development.
-          </p>
-          <a href="https://getbootstrap.com/" target="_blank"
-            ><button class="btn">Read more...</button></a
-          >
+      </section>
+      <span id="tools"></span>
+      <!-- Content Section Ended Here -->
+      <!-- Grid Container Section -->
+      <h2 class="tools">Tools that is used to make websites Responsive</h2>
+      <section class="gridCardContainer">
+        <div class="gridItem">
+          <div class="cardheader">
+            <img src="images/html.png" alt="HTML" loading="lazy" />
+            <h2>HTML</h2>
+            <p>
+              HTML provides a means to create structured documents by denoting
+              structural semantics for text such as headings, paragraphs, lists,
+              links, quotes, and other items.
+            </p>
+            <a
+              href="https://www.w3schools.com/html/html_intro.asp"
+              target="_blank"
+              ><button class="btn">Read more...</button></a
+            >
+          </div>
         </div>
-      </div>
-      <div class="gridItem">
-        <div class="cardheader">
-          <img src="images/mui.png" alt="MUI" loading="lazy" />
-          <h2>Material UI</h2>
-          <p>
-            Material UI is an open-source React component library that
-            implements Google's Material Design. It includes a comprehensive
-            collection of prebuilt components.
-          </p>
-          <a href="https://mui.com/material-ui/getting-started/" target="_blank"
-            ><button class="btn">Read more...</button></a
-          >
+        <div class="gridItem">
+          <div class="cardheader">
+            <img src="images/css.png" alt="CSS" loading="lazy" />
+            <h2>CSS</h2>
+            <p>
+              Cascading Style Sheets (CSS) is a style sheet language used for
+              describing the presentation of a document written in a markup
+              language such as HTML or XML
+            </p>
+            <a
+              href="https://www.w3schools.com/w3css/defaulT.asp"
+              target="_blank"
+              ><button class="btn">Read more...</button></a
+            >
+          </div>
         </div>
-      </div>
-      <div class="gridItem">
-        <div class="cardheader">
-          <img src="images/tailwind.png" alt="Tailwind" loading="lazy" />
-          <h2>Tailwind CSS</h2>
-          <p>
-            Tailwind CSS is basically a utility-first CSS framework for rapidly
-            building custom user interfaces. It is a highly customizable,
-            low-level CSS framework that gives you all of the building blocks .
-          </p>
-          <a href="https://tailwindcss.com/" target="_blank"
-            ><button class="btn">Read more...</button></a
-          >
+        <div class="gridItem">
+          <div class="cardheader">
+            <img
+              src="images/Bootstrap_logo.svg"
+              alt="Bootstrap"
+              loading="lazy"
+            />
+            <h2>Bootstrap</h2>
+            <p>
+              What is Bootstrap? Bootstrap is a free, open source front-end
+              development framework for the creation of websites and web apps.
+              Designed to enable responsive development.
+            </p>
+            <a href="https://getbootstrap.com/" target="_blank"
+              ><button class="btn">Read more...</button></a
+            >
+          </div>
         </div>
-      </div>
-    </section>
-    <!-- Grid Section Container Ended here -->
-    <!-- Footer Section -->
-    <footer class="footer">
-      &copy; 2023 Your Website. All Rights Reserved. | Designed by Noor Abbas
-      Shaikh
-    </footer>
+        <div class="gridItem">
+          <div class="cardheader">
+            <img src="images/mui.png" alt="MUI" loading="lazy" />
+            <h2>Material UI</h2>
+            <p>
+              Material UI is an open-source React component library that
+              implements Google's Material Design. It includes a comprehensive
+              collection of prebuilt components.
+            </p>
+            <a
+              href="https://mui.com/material-ui/getting-started/"
+              target="_blank"
+              ><button class="btn">Read more...</button></a
+            >
+          </div>
+        </div>
+        <div class="gridItem">
+          <div class="cardheader">
+            <img src="images/tailwind.png" alt="Tailwind" loading="lazy" />
+            <h2>Tailwind CSS</h2>
+            <p>
+              Tailwind CSS is basically a utility-first CSS framework for
+              rapidly building custom user interfaces. It is a highly
+              customizable, low-level CSS framework that gives you all of the
+              building blocks .
+            </p>
+            <a href="https://tailwindcss.com/" target="_blank"
+              ><button class="btn">Read more...</button></a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- Grid Section Container Ended here -->
+      <!-- Footer Section -->
+      <footer class="footer">
+        &copy; 2023 Your Website. All Rights Reserved. | Designed by Noor Abbas
+        Shaikh
+      </footer>
+    </div>
+    <!-- Javascript file link -->
+    <script src="script.js"></script>
   </body>
 </html>
